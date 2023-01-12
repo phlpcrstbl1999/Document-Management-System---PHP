@@ -1,0 +1,6 @@
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase / 
+
+RewriteRule ^reset/([0-9]+)/([0-9]+)?$ /resetpass.php?username=$1&$pass=$2 [L,QSA,NC]
