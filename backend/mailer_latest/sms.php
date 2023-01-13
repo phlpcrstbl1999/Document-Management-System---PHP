@@ -1,13 +1,13 @@
 <?php
 //Send an SMS using Gatewayapi.com
 // $url = "https://gatewayapi.com/rest/mtsms";
-// $api_token = "lfkNys5zQ52JaQlLDJm1FmamidB809OOFQPkTPn7csnwR098A1dUnReu2USOeKxd";
+// $api_token = "sampleAPI";
 
 // //Set SMS recipients and content
-// $recipients = [639178473296];
+// $recipients = [];
 // $json = [
 //     'sender' => 'PhilFirst',
-//     'message' => 'Hello sir BJ May Bayad po Itong Text. 0.029 EU',
+//     'message' => '',
 //     'recipients' => [],
 // ];
 // foreach ($recipients as $msisdn) {
