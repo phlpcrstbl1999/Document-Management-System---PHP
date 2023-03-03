@@ -28,12 +28,4 @@
 // $json = json_decode($result);
 // print_r($json->ids);
 
-echo $base_url="http://".$_SERVER['SERVER_NAME'].'/sr/login.php';
-echo '<br>';
-
-echo $base_url="http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
-
-echo '<br>';
-echo $base_url1="http://".$_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT'].dirname($_SERVER["REQUEST_URI"].'?').'/';
-
 ?>
